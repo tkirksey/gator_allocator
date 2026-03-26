@@ -2,12 +2,13 @@
 This project is my attempt at making a basic allocator.
 
 ## Documentation
-
-### `void *gator_allocate(size_t bytes)`
+`void *gator_allocate(size_t bytes)`
 Desc:
 > Returns a void pointer to the requested size of bytes
+
 Params:
 > `size_t bytes` -> the number of bytes to allocate
+
 Returns:
 > `void *` -> a pointer to the requested memory or NULL if failed to allocate memory
 
