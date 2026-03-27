@@ -2,6 +2,9 @@
 This project is my attempt at making a basic allocator.
 
 ## Documentation
+
+---
+
 #### `void *gator_allocate(size_t bytes)`
 
 <ins>Description:</ins>
@@ -31,6 +34,8 @@ Frees the allocated memory from the pointer and sets it to NULL
 <ins>Returns:</ins>
 
 `int` -> Either a 0 for success or an error code
+
+---
 
 ### Error Code Lookup Table
 
