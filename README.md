@@ -43,4 +43,5 @@ Frees the allocated memory from the pointer and sets it to NULL
 |:---|:---|:---|
 |0|SUCCESS|The allocation was freed with no errors|
 |1|NULLPTR|A NULL pointer was passed in as a parameter|
-
+|2|NOTMYPTR|A pointer to memory that was not allocated by the allocator|
+|3|INTERNALFAIL|The internals of the allocator failed to allocate/free|
