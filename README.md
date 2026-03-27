@@ -4,29 +4,29 @@ This project is my attempt at making a basic allocator.
 ## Documentation
 #### `void *gator_allocate(size_t bytes)`
 
-Description:
+<ins>Description:</ins>
 
 Returns a void pointer to the requested size of bytes
 
-Parameters:
+<ins>Parameters:</ins>
 
 `size_t bytes` -> the number of bytes to allocate
 
-Returns:
+<ins>Returns:</ins>
 
 `void *` -> a pointer to the requested memory or NULL if failed to allocate memory
 
 #### `int gator_free(void *ptr)`
 
-Description:
+<ins>Description:</ins>
 
 Frees the allocated memory from the pointer and sets it to NULL
     
-Parameters:
+<ins>Parameters:</ins>
 
 `void *ptr` -> the pointer to the memory to be freed
 
-Returns:
+<ins>Returns:</ins>
 
 `int` -> Either a 0 for success or an error code
 
