@@ -16,6 +16,8 @@ Returns a void pointer to the requested size of bytes
 
 `void *` -> a pointer to the requested memory or NULL if failed to allocate memory
 
+---
+
 #### `int gator_free(void *ptr)`
 
 <ins>Description:</ins>
